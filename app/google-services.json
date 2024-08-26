@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "703529705989",
+    "project_id": "myvolairehotels",
+    "storage_bucket": "myvolairehotels.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703529705989:android:3dfca062810381991bf26c",
+        "android_client_info": {
+          "package_name": "com.example.myvolairehotels"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuiY9jhsSyRCHqhW-4bMZdNJSbELaU6Ss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
