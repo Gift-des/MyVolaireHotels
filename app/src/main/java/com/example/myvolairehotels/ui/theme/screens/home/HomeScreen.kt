@@ -208,7 +208,7 @@ fun ContentScreen(navController: NavController){
             Column (horizontalAlignment = Alignment.CenterHorizontally){
                 Button(
                     onClick = { navController.navigate(ROUT_ADDROOM) },
-                    colors = ButtonDefaults.buttonColors(Color.Cyan)
+                    colors = ButtonDefaults.buttonColors(Color.Black)
 
                 ) {
                     Text(text = "Add Room", fontSize = 30.sp, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center)
@@ -216,7 +216,7 @@ fun ContentScreen(navController: NavController){
                 Spacer(modifier = Modifier.height(20.dp))
                 Button(
                     onClick = { navController.navigate(ROUT_VIEWROOMUSER)},
-                    colors = ButtonDefaults.buttonColors(Color.Cyan)
+                    colors = ButtonDefaults.buttonColors(Color.Black)
 
                 ) {
                     Text(text = "View Rooms", fontSize = 30.sp,
@@ -226,7 +226,7 @@ fun ContentScreen(navController: NavController){
                 Button(
                     onClick = { navController.navigate(ROUT_VIEWROOM) },
 
-                    colors = ButtonDefaults.buttonColors(Color.Cyan)
+                    colors = ButtonDefaults.buttonColors(Color.Black)
                 )
                 {
                     Text(text = "View Bookings", fontSize = 30.sp, fontWeight = FontWeight.SemiBold, textAlign = TextAlign.Center)

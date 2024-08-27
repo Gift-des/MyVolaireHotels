@@ -44,6 +44,7 @@ import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 import com.example.myvolairehotels.data.ClientViewModel
 import com.example.myvolairehotels.navigation.ROUT_VIEWROOM
+import com.example.myvolairehotels.ui.theme.darkpurple
 
 import java.text.SimpleDateFormat
 import java.util.Calendar
@@ -171,8 +172,9 @@ fun AddClientScreen(navController: NavController) {
                         clientRoom.text.trim()
                     )
 
-                }, colors = ButtonDefaults.buttonColors(Color.Green)) {
+                }, colors = ButtonDefaults.buttonColors(darkpurple)) {
                     Text(text = "Submit")
+                    Color.Black
                 }
             }
 

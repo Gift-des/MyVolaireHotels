@@ -23,14 +23,14 @@ import com.example.myvolairehotels.ui.theme.screens.room.AddRoomScreen
 import com.example.myvolairehotels.ui.theme.screens.room.ViewRoomScreen
 import com.example.myvolairehotels.ui.theme.screens.room.ViewRoomUserScreen
 import com.example.myvolairehotels.ui.theme.screens.splash.SplashScreen
-import com.example.myvolairehotels.ui.theme.screens.dashboard.DashboardScreen
+
 
 @RequiresApi(Build.VERSION_CODES.N)
 @Composable
 fun AppNavHost(
     modifier: Modifier = Modifier,
     navController: NavHostController = rememberNavController(),
-    startDestination:String = ROUT_REGISTER
+    startDestination:String = ROUT_SPLASH
 ) {
     NavHost(
         navController = navController,
@@ -50,9 +50,7 @@ fun AppNavHost(
         composable(ROUT_LOGIN) {
             LoginScreen(navController = navController)
         }
-        composable(ROUT_DASHBOARD) {
-            DashboardScreen(navController = navController)
-        }
+
         composable(ROUT_HOME) {
             HomeScreen(navController = navController)
         }
